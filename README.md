@@ -40,7 +40,5 @@ The most basic way of setting up the project is to:
 
 To run tests:
 - Run memcached_tests.py choosing Python as interpreter
-The output should be:
 
-
-![Screenshot](master\img\tests.png)
+Output for these tests are in img folder within root directory.
