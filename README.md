@@ -46,3 +46,5 @@ To run tests:
 - Run memcached_tests.py choosing Python as interpreter
 
 Output for these tests are in img folder within root directory.
+
+(Other ways of reproducing this project are: open it with an interpreter such as VS Code and run it from within the interpreter, which is a more visual way of seeing the outputs of the scripts)
