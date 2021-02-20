@@ -20,9 +20,13 @@ Commands supported from the real Memcached system are:
 
 'cas' and 'gets' were not supported for practical context reasons.
 
-Lastly, it is important to note that instead of accepting 'command name key flags exptime bytes \r\n
-cas key flags exptime bytes cas unique \r\n' like the real Memcached system, this implementation uses the following protocol:
- 'command name key value bytes'
+Lastly, it is important to note that instead of accepting 'command name' 'key' 'flags' 'exptime' 'bytes' \r\n
+'cas' 'key' 'flags' 'exptime' 'bytes' 'cas unique' \r\n' like the real Memcached system, this implementation uses the following protocol:
+ 'command name' 'key' 'value' 'bytes'.
+ 
+For example:
+
+- set foo bar 3 gives the following output: STORED.
 
 ## Reproductibility
 
