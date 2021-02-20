@@ -43,4 +43,4 @@ To run tests:
 The output should be:
 
 
-
+![Screenshot](tests.png)
