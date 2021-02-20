@@ -43,4 +43,4 @@ To run tests:
 The output should be:
 
 
-![Screenshot](img/tests.png)
+![Screenshot](master\img\tests.png)
