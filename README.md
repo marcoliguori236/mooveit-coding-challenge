@@ -30,7 +30,7 @@ For example:
 
 ## Reproductibility
 
-In order to reproduce the project, one must have Python and a Python interpreter installed on his/her computer. As an interpreter i used Visual Studio Code, which the environments files were uploaded under 'project_env' for reproductibility reasons.
+In order to reproduce the project, one must have Python installed on his/her computer. Ideally, an interpreter like Visual Studio Code is preferred in addition of having Python installed for better visualization. (Link to VS Code download: https://code.visualstudio.com/download)
 
 ### How to reproduce the project
 
