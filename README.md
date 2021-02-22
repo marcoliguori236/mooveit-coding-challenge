@@ -5,6 +5,8 @@
 
 This project represents a conceptual implementation of the Memcached system, it is not intended for practical use, although it tries to hover over several programming concepts in order to demonstrate technical capabilities within software development.
 
+The basic flow of the project is as follows: Establish a connection on a local socket through the TCP protocol to emulate the communication between a real server and a client. Then, a Memcached object is instantiated (which is basically a dictioniary with an array of commands to get and set key-value pairs). This object is hold on the server side, and the client can manipulate it through the connection remotely, basically working as a storage system.
+
 The project was developed in Python 3.9.1.
 
 ## Supported commands
